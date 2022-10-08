@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="Calculator/jarx/calculator.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Calculator/JarBuild.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=Calculator/src&lt;{Calculator.java[Calculator" manifestLocation="/Calculator/manifest" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/Calculator/.classpath"/>
+        <file path="/Calculator/.project"/>
+        <javaElement handleIdentifier="=Calculator/src"/>
+    </selectedElements>
+</jardesc>
