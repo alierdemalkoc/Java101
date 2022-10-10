@@ -13,10 +13,10 @@ public class Driver {
 		Scanner scn = new Scanner(System.in);
 		String yazi = scn.nextLine();
 		scn.close();
-		        LinkedHashMap<Character, Integer> charCountMap
-		            = new LinkedHashMap<Character, Integer>();
+		
+		LinkedHashMap<Character, Integer> charCountMap = new LinkedHashMap<Character, Integer>();
 		 
-		        char[] strArray = yazi.toCharArray();
+	    char[] strArray = yazi.toCharArray();
 		 
 		        for (char c : strArray) {
 		        	if (c != ' ') {
