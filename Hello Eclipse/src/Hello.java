@@ -9,17 +9,18 @@ public class Hello {
 	static String yazi;
 	
 	public static void main(String[] args) {
-		//replace();
+		replace();
 		//count();
 		//arrayFlip();
 		//arrayFlip2();
-		arrayChallenge();
+		//arrayChallenge();
 	}
 	
 	private static void arrayChallenge() {
 		System.out.println("Metin giriniz:");
 		Scanner scn = new Scanner(System.in);
 		yazi = scn.nextLine();
+		scn.close();
 		Set<Character> chars = new LinkedHashSet<>();
 		for (int i = 0; i < yazi.length(); i++) {
 			if(yazi.charAt(i) != ' ') {
@@ -123,6 +124,7 @@ public class Hello {
 		System.out.println("Metin giriniz:");
 		Scanner scn = new Scanner(System.in);
 		yazi = scn.nextLine();
+		scn.close();
 		for (int i = 0; i < yazi.length(); i++) {
 			int count = 1;
 			while(i<yazi.length()-1 && yazi.charAt(i)==yazi.charAt(i+1) && yazi.charAt(i) != ' ') {
@@ -141,6 +143,7 @@ public class Hello {
 		System.out.println("İsim giriniz:");
 		Scanner scn = new Scanner(System.in);
 		isim = scn.nextLine();
+		scn.close();
 		String yeniisim = isim
 				.replace("a", "1")
 				.replace("e", "2")
