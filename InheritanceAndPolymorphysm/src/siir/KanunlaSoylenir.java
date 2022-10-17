@@ -1,5 +1,5 @@
 package siir;
 
 public interface KanunlaSoylenir {
-	public void kanunlaOku();
+	public void kanunlaSoyle();
 }
